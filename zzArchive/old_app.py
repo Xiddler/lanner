@@ -37,5 +37,5 @@ def index():
 	return render_template('index.html', most_recent1=most_recent1, most_recent2=most_recent2)
 
 if __name__ == '__main__':
-	app.run(host ='0.0.0.0', debug=True) # '0.0.0.0' allows browsing from other devices on the lan.
+	app.run(host ='0.0.0.0', port=9000, debug=True) # '0.0.0.0' allows browsing from other devices on the lan.
 
